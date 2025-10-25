@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash Patil — .NET Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* ====== Global Styles ====== */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* ====== Header Section ====== */
+    header {
+      background: linear-gradient(90deg, #0078D7, #00BFFF);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      border-bottom: 4px solid #FF8C00;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.3rem;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    /* ====== Social Links ====== */
+    .social-links {
+      margin-top: 15px;
+    }
+
+    .social-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: #FFD580;
+    }
+
+    /* ====== Section Styling ====== */
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-top: 4px solid #0078D7;
+    }
+
+    h2 {
+      border-left: 5px solid #FF8C00;
+      padding-left: 10px;
+      color: #0078D7;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .year {
+      color: #555;
+      font-size: 0.9rem;
+      margin-left: 10px;
+    }
+
+    ul {
+      padding-left: 25px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    /* ====== Project Cards ====== */
+    .project-card {
+      margin-bottom: 20px;
+      padding: 15px 20px;
+      border-left: 5px solid #0078D7;
+      background: #f4f8ff;
+      border-radius: 8px;
+    }
+
+    /* ====== Footer ====== */
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #222;
+      color: white;
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: #FFA500;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #FFD580;
+    }
+
+    /* ====== Animation ====== */
+    section {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 1s ease;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="WhatsApp Image 2025-08-07 at 22.19.38.jpeg" alt="Profile Photo">
+    <h1>Akash Patil</h1>
+    <p>Full Stack Developer | .NET Core | React | Angular | SQL Server</p>
+    <div class="social-links">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akashpatil0783@gmail.com" target="_blank">📧 Gmail</a>
+      <a href="https://www.linkedin.com/in/akash-patil-504a72288/" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/akashpatil0783" target="_blank">💻 GitHub</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate Full Stack Developer currently completing a <b>Full Stack Development course</b> 
+      focused on <b>.NET Core</b> for backend development and <b>SQL / PostgreSQL</b> as the database.
+      On the frontend, I am enhancing my skills in <b>HTML, CSS, JavaScript, React, and Angular</b>.
+      I enjoy solving real-world problems and continuously improving my technical skills.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <h3>Intern — Biyani Technologies Pvt. Ltd. <span class="year">Aug 2024 – Jul 2025</span></h3>
+    <p>
+      Currently completing an 11-month internship where I contribute to full-stack development using 
+      ASP.NET technologies and frontend HTML5, CSS, and JavaScript. My responsibilities include developing and maintaining
+      modules using <b>ASP.NET</b>, <b>Entity Framework</b>, and <b>SQL Server 2019</b>.
+    </p>
+
+    <h4 style="color:#0078D7; margin-top:30px;">Internship Projects at Biyani Technologies</h4>
+    <ul>
+      <li><b>CMS (College Management System)</b> — Designed and implemented admin-side modules to manage company content and updates.</li>
+      <li><b>Warna Milk and Dairy Project</b> — Developed a task management system to assign and monitor daily activities using ASP.NET and Entity Framework.</li>
+      <li><b>Data Migration Utility</b> — Created an Excel-to-SQL import feature using EPPlus and backend validation stored procedures.</li>
+      <li><b>Complaint Booking Project</b> — Built a feature to track, assign, and resolve client complaints efficiently using ASP.NET and SQL Server.</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h4>PG Management System (Current Project)</h4>
+      <p>
+        A web-based platform currently under development to automate and simplify Paying Guest (PG) and hostel management operations.
+        It includes modules for tenant registration, room allocation, rent tracking, and automated reporting.
+      </p>
+      <p><b>Tech Stack:</b> .NET Core, Entity Framework, MVC, SQL Server 2019, HTML, CSS, JavaScript</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Akash Patil | Built with ❤️ using HTML, CSS & JavaScript</p>
+    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=akashpatil0783@gmail.com" target="_blank">Contact Me</a></p>
+  </footer>
+
+  <script>
+    // Smooth fade-in animation for sections
+    const sections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = 1;
+          entry.target.style.transform = "translateY(0)";
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+    sections.forEach(section => observer.observe(section));
+  </script>
+</body>
+</html>
